@@ -98,7 +98,7 @@ h1 {
 
 /* sektion 2 */
 #section2 {
-  height: 100vh;
+  height: 70vh;
   background-color: #D1C7B9;
 }
 
@@ -129,7 +129,7 @@ h1 {
 
 .giraf {
   flex: 1;
-  height: 100vh;
+  height: 70vh;
   overflow: hidden;
   /* background-color: deeppink; */
 }
@@ -138,7 +138,7 @@ h1 {
   width: 110vh;
   position: relative;
   left: -17vh;
-  top: -18vh;
+  top: 10vh;
 }
 
 
