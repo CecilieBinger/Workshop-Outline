@@ -127,18 +127,18 @@ h1 {
   font-size: 2vh;
 }
 
-.giraf {
+.monroe {
   flex: 1;
-  height: 70vh;
+  height: 50%;
   overflow: hidden;
   /* background-color: deeppink; */
 }
 
-#giraf {
-  width: 110vh;
+#monroe {
+  width: 50%;
   position: relative;
-  left: -17vh;
-  top: 10vh;
+  left: 20vh;
+  top: -5vh;
 }
 
 
@@ -312,7 +312,7 @@ overflow: hidden;
 
 /* sektion 7 */
 #section7 {
-  height: 40vh;
+  height: 50vh;
   background-color: #f2f2f2;
 }
 
