@@ -129,13 +129,13 @@ h1 {
 
 .monroe {
   flex: 1;
-  height: 50%;
+  height: 70vh;
   overflow: hidden;
   /* background-color: deeppink; */
 }
 
 #monroe {
-  width: 50%;
+  width: 50vh;
   position: relative;
   left: 20vh;
   top: -5vh;
