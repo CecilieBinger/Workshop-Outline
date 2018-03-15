@@ -346,6 +346,10 @@ div.flex-pic-text4 p{
   background-color: #D1C7B9;
 }
 
+#disclaimer{
+  text-align: center;
+}
+
 .icons {
   float: left;
   position: relative;
