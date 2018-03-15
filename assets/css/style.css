@@ -346,6 +346,12 @@ div.flex-pic-text4 p{
   background-color: #D1C7B9;
 }
 
+#disclaimer{
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .icons {
   float: left;
   position: relative;
