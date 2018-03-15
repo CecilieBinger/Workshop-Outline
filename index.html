@@ -54,8 +54,24 @@
             <p>Er du også pisse træt af kolde øjenbryn, lidt for røde kinder og forfrysninger i panden? Eller er du bare røv træt af dit skide syge ansigt? Vi har løsningen til dig!
             Design din nye huemaske, hvor du selv bestemmer om du i morgen vil ligne Donald Trump, eller den bedste udgave af dig selv! Ikke nok med at du slipper for den kolde vind i ansigtet, du ser også godt ud, når du suser afsted! </p> <!-- ABOUT Tekst -->
           </div>
+
+          <script type="text/javascript">
+
+          var image_tracker = 'f';
+          function change(){
+            var image = document.getElementById('sorenpind');
+            if(image_tracker=='f'){
+              image.src = 'assets/images/sorenpindOriginal.png';
+              image_tracker = 't';
+            }else{
+              image.src = 'assets/images/sorenpind.png'
+              image_tracker = 'f';
+            }
+          }
+          </script>
+
           <div class="monroe">
-            <img id="monroe" src="assets/images/sorenpind.png" alt="Monroe">
+            <img id="sorenpind" src="assets/images/sorenpind.png" alt="sorenpindOriginal" onclick='change();'>
           </div>
         </div>
       </section>
