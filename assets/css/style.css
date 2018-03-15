@@ -127,20 +127,19 @@ h1 {
   font-size: 2vh;
 }
 
-.monroe {
+.sorenpind {
   flex: 1;
   height: 70vh;
   overflow: hidden;
   /* background-color: deeppink; */
 }
 
-#monroe {
+#sorenpind {
   width: 50vh;
   position: relative;
-  left: 20vh;
-  top: 25vh;
+  left: 3vh;
+  top: 23vh;
 }
-
 
 /* sektion 3 */
 #section3 {
