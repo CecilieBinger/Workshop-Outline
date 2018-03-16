@@ -293,19 +293,6 @@ overflow: hidden;
   font-size: 3.5vh;
 }
 
-.flex-1 {
-  flex: 1;
-  width: 20%;
-  overflow: hidden;
-}
-
-.flex-1 img {
-  width: 45%;
-  margin: auto;
-  display: block;
-  margin-top: 1vh;
-}
-
 .flex-values {
   display: flex;
   flex-direction: row;
