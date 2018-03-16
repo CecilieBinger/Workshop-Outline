@@ -183,8 +183,6 @@ overflow: hidden;
   top: 2vh;
 }
 
-
-
 .elg {
   flex: 1;
   order: 2;
@@ -215,6 +213,20 @@ overflow: hidden;
 
 .why-us-text p .italic {
   font-style: italic;
+}
+
+#omos {
+  width: 90%;
+  position: relative;
+  top: 22vh;
+  left: 10vh;
+}
+
+.omos {
+  flex: 1;
+  height: 70vh;
+  overflow: hidden;
+  /* background-color: deeppink; */
 }
 
 /*sektion 4 */
@@ -278,7 +290,6 @@ overflow: hidden;
 #workshopsmog {
   width: 50vh;
   position: relative;
-  left: 2vh;
   top: -65vh;
 }
 
