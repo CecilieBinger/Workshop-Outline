@@ -163,11 +163,7 @@ h1 {
   flex: 1;
   order: 2;
   line-height: 1.5;
-<<<<<<< HEAD
   margin-top: 2vh;
-=======
-  margin-top: 5vh;
->>>>>>> 9feb7c2c8bb7b6dd60c31f886e3be856817989e1
   display: block;
   padding: 10vh;
   font-weight: 300;
@@ -214,7 +210,7 @@ overflow: hidden;
 
 /*sektion 4 */
 #section4 {
-  height: 60vh;
+  height: 90vh;
   width: 100%;
   padding: 0;
   position: relative;;
@@ -243,17 +239,22 @@ overflow: hidden;
 
 #monroetext {
   position: relative;
-  left: 17vh;
+  left: -8vh;
+  top: -20vh;
 }
 
 #smogtext {
   position: relative;
-  left: 45vh;
+  left: 90vh;
+  top: -8vh;
+  width: 50%;
 }
 
 #hijabtext {
   position: relative;
-  left: 58vh;
+  left: 160vh;
+  top: -22vh;
+  width: 50%;
 }
 
 .monroe {
@@ -281,7 +282,7 @@ overflow: hidden;
   width: 40vh;
   position: relative;
   left: 70vh;
-  top: -0vh;
+  top: -6vh;
 }
 
 .workshopsmog {
@@ -299,7 +300,7 @@ overflow: hidden;
 
 /*sektion 4 */
 #section4a {
-  height: 10vh;
+  height: 5vh;
   width: 100%;
   padding: 0;
   position: relative;;
@@ -314,11 +315,6 @@ overflow: hidden;
   font-size: 3.5vh;
 }
 
-.flex-section-4a {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
 
 /* sektion 5 */
 #section5 {
