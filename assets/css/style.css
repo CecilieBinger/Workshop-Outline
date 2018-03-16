@@ -163,36 +163,20 @@ h1 {
   flex: 1;
   order: 2;
   line-height: 1.5;
+<<<<<<< HEAD
   margin-top: 2vh;
+=======
+  margin-top: 5vh;
+>>>>>>> 9feb7c2c8bb7b6dd60c31f886e3be856817989e1
   display: block;
   padding: 10vh;
   font-weight: 300;
 }
 
-.lion {
+.omos {
 flex: 1;
 height: 60vh;
 overflow: hidden;
-}
-
-#lion {
-  width: 60vh;
-  position: relative;
-  left: -10vh;
-  top: 2vh;
-}
-
-.elg {
-  flex: 1;
-  order: 2;
-  height: 80vh;
-  overflow: hidden;
-}
-
-#elg {
-  width: 120vh;
-  position: relative;
-  left: -17vh;
 }
 
 .why-us-text {
@@ -251,6 +235,27 @@ overflow: hidden;
   margin: auto;
 }
 
+.flex-section4a {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#monroetext {
+  position: relative;
+  left: 17vh;
+}
+
+#smogtext {
+  position: relative;
+  left: 45vh;
+}
+
+#hijabtext {
+  position: relative;
+  left: 58vh;
+}
+
 .monroe {
   flex: 1;
   height: 70vh;
@@ -298,7 +303,7 @@ overflow: hidden;
   width: 100%;
   padding: 0;
   position: relative;;
-  text-align: center;
+  text-align: center;x
   overflow: hidden;
   background-color: lightblue;
   margin: 0;
