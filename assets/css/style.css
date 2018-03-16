@@ -144,7 +144,7 @@ h1 {
   height: 50vh;
   width: 100%;
   overflow: hidden;
-  background-color: #B5B394;
+  background-color: #f2f2f2;
 }
 
 #section3 h2 {
@@ -225,8 +225,13 @@ overflow: hidden;
   position: relative;;
   text-align: center;
   overflow: hidden;
+<<<<<<< HEAD
   background-color: blue;
   margin: auto;
+=======
+  background-color: lightblue;
+  margin: 0;
+>>>>>>> 5f926b6b9d435074c17a0561bc30ca48d12822c0
 }
 
 #section4 h2 {
@@ -332,7 +337,7 @@ overflow: hidden;
 
 /* sektion 7 */
 #section7 {
-  height: 50vh;
+  height: 40vh;
   background-color: #f2f2f2;
 }
 
