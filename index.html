@@ -26,7 +26,7 @@
             <li><a onclick="OBS()">OBS</a></li>
           </ul>
         </nav>
-        <H1>Du kan være hvem du vil</H1> <!-- Header tekst -->
+        <H1>Du kan være hvem du vil</H1>
         <H2>Når du vil</H2>
       </header>
 
@@ -52,8 +52,8 @@
     }
     </script>
 
-      <section id="section2"><!-- sektion 2 (about) -->
-        <div class="flex-section-2"> <!-- Flexer sektionen -->
+      <section id="section2">
+        <div class="flex-section-2">
           <div class="about-text">
             <H2>KONCEPT</H2> <!-- heading -->
             <p>Er du også pisse træt af kolde øjenbryn, lidt for røde kinder og forfrysninger i panden? Eller er du bare røv træt af dit skide syge ansigt? Vi har løsningen til dig!
@@ -64,27 +64,27 @@
 
           var image_tracker = 'f';
           function change(){
-            var image = document.getElementById('sorenpind');
+            var image = document.getElementById('sorenpindOriginal');
             if(image_tracker=='f'){
-              image.src = 'assets/images/sorenpindOriginal.png';
+              image.src = 'assets/images/sorenpind.png';
               image_tracker = 't';
             }else{
-              image.src = 'assets/images/sorenpind.png'
+              image.src = 'assets/images/sorenpindOriginal.png'
               image_tracker = 'f';
             }
           }
           </script>
 
-          <div class="sorenpind">
-            <img id="sorenpind" src="assets/images/sorenpind.png" alt="sorenpindOriginal" onclick='change();'>
+          <div class="sorenpindOriginal">
+            <img id="sorenpindOriginal" src="assets/images/sorenpindOriginal.png" alt="sorenpind" onclick='change();'>
           </div>
         </div>
       </section>
 
-      <section id="section3"><!-- sektion 3 (logo'er) -->
+      <section id="section3">
         <div class="flex-section-3">
           <div class="lion">
-              <img id="monroe" src="assets/images/monroe.png" alt="sorenpindOriginal" onClick='change();'> //Her skal vi have sat et billede ind
+              <img id="" src="assets/images/.png" alt="sorenpindOriginal" onClick='change();'> <!-- Her skal vi have sat et billede ind -->
           </div>
           <div class="about-text1">
             <H2>OM OS</H2> <!-- heading -->
@@ -96,15 +96,15 @@
 
       <section id="section4"> <!-- sektion 4 (logo'er) -->
         <h2>FORSKELLIGT UDVALG</h2>
-        <div class="flex-values">
-          <div class "flex-1">
-            <img src="assets/images/.png" alt="kage">
+        <div class="flex-section4">
+          <div class "EndeligeHijab">
+            <img src="assets/images/EndeligeHijab.png" alt="smør">
           </div>
-          <div class "flex-1">
-            <img src="assets/images/.png" alt="kage">
+          <div class "workshopsmog">
+            <img src="assets/images/workshopsmog.png" alt="kage">
           </div>
-            <div class "flex-1">
-              <img src="assets/images/.png" alt="kage">
+            <div class "monroe">
+              <img src="assets/images/monroe.png" alt="smør">
         </div>
       </div>
       <div class="flex-tekst">
@@ -114,9 +114,9 @@
       </div>
       </section>
 
-      <section id="section5"> <!-- sektion 5 (værdierne) -->
+      <section id="section5">
         <h2>VORES VÆRDIER</h2>
-        <div class="flex-values"> <!-- flexer værdierne -->
+        <div class="flex-values">
           <div class="flex-1">
             <img src="assets/images/syring_icon.png" alt="diamond-value">
           </div>
@@ -134,12 +134,12 @@
         </div>
       </section>
 
-      <section id="section7"> <!-- sektion 6 (CONTACT) -->
+      <section id="section7">
         <h2>OBS</h2>
         <p id="disclaimer"> <b>1)</b> Huemaskeriet står <b>ikke</b> til ansvar for hvad vores kunder vælger at benytte vores produkter til. Vi tolerer dog ikke brug af vores produkt til ulovlige aktiviteter såsom: <b>røveri, forfalskning eller identitetstyveri.</b> <br><b>2)</b> Hvad vores kunder vælger at bruge vores produkter til reflekterer nødvendigvis ikke Huemaskeriet synspunkter og værdier, hverken som individer eller firma. <br> <b>3)</b> I tilfælde af ikke øget selvværd, refunderes produktet ikke.</p>
       </section>
 
-      <footer id="footer"> <!-- footer her -->
+      <footer id="footer"> <!-- Dedikeret til Kenneths minde -->
         <div class="flex-footer">
           <div class="icons">
             <a href="https://www.instagram.com" target="_blank"> <img src="assets/images/instagram.svg" alt="instagram" style="width:4vh;"></a>
@@ -147,7 +147,7 @@
             <a href="https://www.facebook.com" target="_blank"> <img src="assets/images/facebook.svg" alt="facebook" style="width:4vh;"></a>
             <a href="https://www.youtube.com" target="_blank"> <img src="assets/images/youtube.svg" alt="youtube" style="width:4vh;"></a>
           </div>
-          <div class="artifactsolutions">
+          <div class="Huemaskeriet">
             <p>Huemaskeriet 2018</p>
           </div>
         </div>
