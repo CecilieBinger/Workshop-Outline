@@ -97,7 +97,7 @@ h1 {
 /* sektion 2 */
 #section2 {
   height: 70vh;
-  background-color: #D1C7B9;
+  background-color: #d1c7b9;
 }
 
 .flex-section-2 {
@@ -135,7 +135,7 @@ h1 {
 #sorenpindOriginal {
   width: 50vh;
   position: relative;
-  left: 3vh;
+  left: 12vh;
   top: 23vh;
 }
 
@@ -222,7 +222,7 @@ overflow: hidden;
   height: 60vh;
   width: 100%;
   overflow: hidden;
-  background-color: blue;
+  background-color: #f2f2f2;
   margin: 0;
 }
 
@@ -330,7 +330,7 @@ overflow: hidden;
 /* sektion 7 */
 #section7 {
   height: 40vh;
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 #section7 h2 {
@@ -360,7 +360,7 @@ div.flex-pic-text4 p{
 /* footer */
 #footer {
   padding: 3vh;
-  background-color: #D1C7B9;
+  background-color: #9d9d9c;
 }
 
 #disclaimer{
