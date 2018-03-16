@@ -221,9 +221,12 @@ overflow: hidden;
 #section4 {
   height: 60vh;
   width: 100%;
+  padding: 0;
+  position: relative;;
+  text-align: center;
   overflow: hidden;
   background-color: blue;
-  margin: 0;
+  margin: auto;
 }
 
 #section4 h2 {
@@ -245,10 +248,10 @@ overflow: hidden;
 }
 
 #monroe {
-  width: 50vh;
+  width: 40vh;
   position: relative;
-  left: 10vh;
-  top: -145vh;
+  left: -70vh;
+  top: -125vh;
 }
 
 .EndeligeHijab {
@@ -259,10 +262,10 @@ overflow: hidden;
 }
 
 #EndeligeHijab {
-  width: 50vh;
+  width: 40vh;
   position: relative;
-  left: 150vh;
-  top: -8vh;
+  left: 70vh;
+  top: -0vh;
 }
 
 .workshopsmog {
@@ -275,8 +278,8 @@ overflow: hidden;
 #workshopsmog {
   width: 50vh;
   position: relative;
-  left: 75vh;
-  top: -80vh;
+  left: 2vh;
+  top: -65vh;
 }
 
 /* sektion 5 */
