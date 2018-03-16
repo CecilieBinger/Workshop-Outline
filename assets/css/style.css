@@ -61,7 +61,7 @@ h1 {
   position: relative;
   top: 25vh;
   text-align: center;
-  background-color: #9f2429;
+  background-color: #7d6291;
   width: 55vw;
   margin: auto;
   }
@@ -72,7 +72,7 @@ h1 {
     position: relative;
     text-align: center;
     top: 30vh;
-    background-color: #9f2429;
+    background-color: #7d6291;
     width: 25vw;
     margin: auto;
     color: white;
@@ -97,7 +97,7 @@ h1 {
 /* sektion 2 */
 #section2 {
   height: 70vh;
-  background-color: lightblue;
+  background-color: #b49dc8;
 }
 
 .flex-section-2 {
@@ -116,8 +116,7 @@ h1 {
 
 .about-text h2 {
   font-size: 3.5vh;
-  background-color: #9f2429;
-  color: white;
+  color: black;
   padding: 1vh;
 }
 .about-text p {
@@ -147,8 +146,7 @@ h1 {
 }
 
 #section3 h2 {
-  background-color: #9f2429;
-  color: white;
+  color: black;
   padding: 1vh;
 }
 
@@ -220,7 +218,7 @@ overflow: hidden;
   position: relative;;
   text-align: center;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #b49dc8;
   margin: 0;
 }
 
@@ -305,7 +303,7 @@ overflow: hidden;
   position: relative;;
   text-align: center;x
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #b49dc8;
   margin: 0;
 }
 
@@ -325,7 +323,7 @@ overflow: hidden;
   height: 41vh;
   width: 100%;
   overflow: hidden;
-  background-color: pink;
+  background-color: white;
   margin: 0;
 }
 
@@ -371,7 +369,7 @@ overflow: hidden;
 /* sektion 7 */
 #section7 {
   height: 40vh;
-  background-color: white;
+  background-color: #cfc7d9;
 }
 
 #section7 h2 {
@@ -401,7 +399,7 @@ div.flex-pic-text4 p{
 /* footer */
 #footer {
   padding: 3vh;
-  background-color: #9d9d9c;
+  background-color: #cfc7d9;
 }
 
 #disclaimer{
