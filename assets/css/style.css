@@ -237,21 +237,22 @@ overflow: hidden;
 
 #monroetext {
   position: relative;
-  left: -8vh;
-  top: -20vh;
+  left: vh;
+  top: -25vh;
+  width: 50%;
 }
 
 #smogtext {
   position: relative;
-  left: 90vh;
-  top: -8vh;
+  left: vh;
+  top: -25vh;
   width: 50%;
 }
 
 #hijabtext {
   position: relative;
-  left: 160vh;
-  top: -22vh;
+  left: 0vh;
+  top: -25vh;
   width: 50%;
 }
 
