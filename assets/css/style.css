@@ -97,7 +97,7 @@ h1 {
 /* sektion 2 */
 #section2 {
   height: 70vh;
-  background-color: #d1c7b9;
+  background-color: lightblue;
 }
 
 .flex-section-2 {
@@ -112,7 +112,6 @@ h1 {
   margin: auto;
   display: block;
   padding: 10vh;
-  /* background-color: deeppink; */
 }
 
 .about-text h2 {
@@ -164,7 +163,7 @@ h1 {
   flex: 1;
   order: 2;
   line-height: 1.5;
-  margin: auto;
+  margin-top: 2vh;
   display: block;
   padding: 10vh;
   font-weight: 300;
