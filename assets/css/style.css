@@ -293,6 +293,29 @@ overflow: hidden;
   top: -65vh;
 }
 
+/*sektion 4 */
+#section4a {
+  height: 10vh;
+  width: 100%;
+  padding: 0;
+  position: relative;;
+  text-align: center;
+  overflow: hidden;
+  background-color: lightblue;
+  margin: 0;
+}
+
+#section4 h2 {
+  text-align: center;
+  font-size: 3.5vh;
+}
+
+.flex-section-4a {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
 /* sektion 5 */
 #section5 {
   height: 41vh;
