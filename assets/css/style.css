@@ -53,8 +53,6 @@ nav a:active {
   /* background-color: #f2f2f2; */
 }
 
-
-
 h1 {
   font-family: 'Work Sans', sans-serif;
   font-size: 8vh;
@@ -127,24 +125,23 @@ h1 {
   font-size: 2vh;
 }
 
-.monroe {
+.sorenpindOriginal {
   flex: 1;
   height: 70vh;
   overflow: hidden;
   /* background-color: deeppink; */
 }
 
-#monroe {
+#sorenpindOriginal {
   width: 50vh;
   position: relative;
-  left: 20vh;
-  top: -5vh;
+  left: 3vh;
+  top: 23vh;
 }
-
 
 /* sektion 3 */
 #section3 {
-  height: 80vh;
+  height: 50vh;
   width: 100%;
   overflow: hidden;
   background-color: #B5B394;
@@ -162,8 +159,6 @@ h1 {
   margin: auto;
 }
 
-
-
 .about-text1 {
   font-size: 2vh;
   flex: 1;
@@ -177,37 +172,18 @@ h1 {
 
 .lion {
 flex: 1;
-height: 80vh;
+height: 60vh;
 overflow: hidden;
 }
 
 #lion {
-  width: 90vh;
+  width: 60vh;
   position: relative;
   left: -10vh;
   top: 2vh;
 }
 
 
-
-/* sektion 4 */
-#section4 {
-  height: 80vh;
-  width: 100%;
-  background-color: #d1c7b9;
-}
-
-#section4 h2 {
-  background-color: #9f2429;
-  color: white;
-  padding: 1vh;
-}
-
-.flex-section-4 {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
 
 .elg {
   flex: 1;
@@ -241,12 +217,74 @@ overflow: hidden;
   font-style: italic;
 }
 
-/* sektion 5 */
-#section5 {
-  height: 45vh;
+/*sektion 4 */
+#section4 {
+  height: 41vh;
   width: 100%;
   overflow: hidden;
-  background-color: #B5B393;
+  background-color: blue;
+  margin: 0;
+}
+
+#section4 h2 {
+  text-align: center;
+  font-size: 3.5vh;
+}
+
+.flex-section-4 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.monroe {
+  flex: 1;
+  height: 70vh;
+  overflow: hidden;
+  /* background-color: deeppink; */
+}
+
+#monroe {
+  width: 50vh;
+  position: relative;
+  left: 3vh;
+  top: 23vh;
+}
+
+.EndeligeHijab {
+  flex: 1;
+  height: 70vh;
+  overflow: hidden;
+  /* background-color: deeppink; */
+}
+
+#EndeligeHijab {
+  width: 50vh;
+  position: relative;
+  left: 3vh;
+  top: 23vh;
+}
+
+.workshopsmog {
+  flex: 1;
+  height: 70vh;
+  overflow: hidden;
+  /* background-color: deeppink; */
+}
+
+#workshopsmog {
+  width: 50vh;
+  position: relative;
+  left: 3vh;
+  top: 23vh;
+}
+
+/* sektion 5 */
+#section5 {
+  height: 41vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: pink;
   margin: 0;
 }
 
@@ -274,6 +312,7 @@ overflow: hidden;
   flex: 1;
   width: 20%;
   overflow: hidden;
+
 }
 .flex-tekst h3 {
   flex: 1;
@@ -286,28 +325,6 @@ overflow: hidden;
   margin: auto;
   display: block;
   margin-top: 1vh;
-}
-
-/* sektion 6 */
-
-#section6 {
-  height: 75vh;
-  width: 100%;
-  background-color: #d9d9d9;
-}
-
-#logos1 {
-  margin: auto;
-  display: block;
-  width: 113vh;
-}
-
-#section6 h3 {
-  text-align: center;
-  /* font-family: 'Work Sans', sans-serif; */
-  font-size: 3.5vh;
-  padding-top: 4vh;
-  margin-top: 0;
 }
 
 /* sektion 7 */

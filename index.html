@@ -3,17 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Huemaskeriet</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="language" content ="Dansk" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Til responsiveness -->
+    <meta name="language" content="Dansk"> <!-- Definerer sproget på hjemmesiden -->
+    <meta name="keywords" content="Huemasker, Hue, Masker, Selvværd"> <!-- søge keywords -->
+    <meta name="description" content="Boost dit selvværd med huemasken, vær den perfekte dig"> <!-- Beskrivelse til hjemmesiden -->
+    <meta name "author" content="Dennis Jensen, Line Von Schmidt, Cecilie Binger Christiansen, Simon Darwin Hallas">
+    <meta http-equiv="refresh" content="30"> <!-- Refresher hver siden hver 30 sekund -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/sorenpind.png"> <!-- favicon -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   </head>
   <body>
     <main>
-      <header id="section1">
-        <img id="headerbackground" src="assets/images/headertry4.png" alt="headerbackground">
-        <nav>
+      <header id="section1"> <!-- sektion 1 (header) -->
+        <img id="headerbackground" src="assets/images/banner.jpg" alt="headerbackground"> <!-- logo -->
+        <nav> <!-- navigation bar -->
           <ul>
             <li><a onclick="omos()">OM OS</a></li>
             <li><a onclick="Koncept()">KONCEPT</a></li>
@@ -50,12 +55,28 @@
       <section id="section2">
         <div class="flex-section-2">
           <div class="about-text">
-            <H2>KONCEPT</H2>
-            <p>Er du også pisse træt af kolde øjenbryn, lidt for røde kinder og forfrysninger i panden? Eller er du bare træt af dit skide syge ansigt? Vi har løsningen til dig!
-            Design din nye huemaske, hvor du selv bestemmer om du i morgen vil ligne Donald Trump, eller den bedste udgave af dig selv! Ikke nok med at du slipper for den kolde vind i ansigtet, du ser også godt ud, når du suser afsted! </p> <!-- ABOUT Tekst -->
+            <H2>KONCEPT</H2> <!-- heading -->
+            <p>Er du også pisse træt af kolde øjenbryn, lidt for røde kinder og forfrysninger i panden? Eller er du bare røv træt af dit skide syge ansigt? Vi har løsningen til dig!
+            Design din nye huemaske, hvor du selv bestemmer om du i morgen vil ligne Søren Pind, eller den bedste udgave af dig selv! Ikke nok med at du slipper for den kolde vind i ansigtet, du ser også godt ud, når du suser afsted!<br> <br> <b>Se hvor flot du kan blive, med vores maske på, ved at klikke på den unge man til højre!</b> <br> <br> <b> KLIK HER for at komme igang med at designe din egen huemaske!</b> </p> <!-- ABOUT Tekst -->
           </div>
-          <div class="monroe">
-            <img id="monroe" src="assets/images/Monroe.png" alt="Monroe">
+
+          <script type="text/javascript">
+
+          var image_tracker = 'f';
+          function change(){
+            var image = document.getElementById('sorenpindOriginal');
+            if(image_tracker=='f'){
+              image.src = 'assets/images/sorenpind.png';
+              image_tracker = 't';
+            }else{
+              image.src = 'assets/images/sorenpindOriginal.png'
+              image_tracker = 'f';
+            }
+          }
+          </script>
+
+          <div class="sorenpindOriginal">
+            <img id="sorenpindOriginal" src="assets/images/sorenpindOriginal.png" alt="sorenpind" onclick='change();'>
           </div>
         </div>
       </section>
@@ -63,17 +84,34 @@
       <section id="section3">
         <div class="flex-section-3">
           <div class="lion">
-              <img >
+              <img id="" src="assets/images/.png" alt="sorenpindOriginal" onClick='change();'> <!-- Her skal vi have sat et billede ind -->
           </div>
           <div class="about-text1">
-            <H2>OM OS</H2>
-            <p>Der var engang langt inde i de frodige skove, ude på den hede savanne, nede i det dybe ocean og på den kolde is et utal af vilde dyr. Mange af disse dyr er i dag udryddelsestruet og lever en barsk tilværelse på grund af bl.a. klimaforandringer. </p>
-            <p>Oplev dyrene i Odense Zoo i deres naturlige habitater via Virtual Reality. Gør dig klar til en informativ- og underholdende oplevelse for både store og små.</p>
-            <p>Gå på opdagelse i den virtuelle verden sammen med din familie og venner ved brug af multi-player funktion eller følg med udefra på VR-brillens display.</p>
-            <p>Vælg mellem flere vinkler afhængigt af om du ønsker, at oplevelsen skal ses fra dyrets eller dit eget perspektiv.</p>
-            <p>Mærk på egen krop hvordan livet som eksempelvis dyrenes konge er og hjælp ham igennem hverdagens udfordringer, så han kan leve lykkeligt til sine dages ende. </p>
+            <H2>OM OS</H2> <!-- heading -->
+            <p>4 ud af 10 mennesker går rundt med lavt selvværd, og den resterende del lyver. Vi er her for at rette om på dit ækle ansigt, og booste dit selvværd. Dette gør vi ved at lave en grimmere dig til en pænere dig, samtidig med at beskytte dit hæslige ansigt mod den kolde vinter. <br> <br> Vil du også blive skide flot? Så vær med i konkurrencen om at vinde en huemaske <b>her</b></p>
+
           </div>
         </div>
+      </section>
+
+      <section id="section4"> <!-- sektion 4 (logo'er) -->
+        <h2>FORSKELLIGT UDVALG</h2>
+        <div class="flex-section4">
+          <div class "EndeligeHijab">
+            <img src="assets/images/EndeligeHijab.png" alt="smør">
+          </div>
+          <div class "workshopsmog">
+            <img src="assets/images/workshopsmog.png" alt="kage">
+          </div>
+            <div class "monroe">
+              <img src="assets/images/monroe.png" alt="smør">
+        </div>
+      </div>
+      <div class="flex-tekst">
+        <h3>Burka</h3>
+        <h3>Smøg</h3>
+        <h3>Almindelig</h3>
+      </div>
       </section>
 
       <section id="section5">
@@ -89,8 +127,8 @@
             <img src="assets/images/thumbs_up_icon.png" alt="hand-value">
           </div>
         </div>
-        <div class="flex-tekst">
-          <h3>Undgå dyr plastikkirurgi</h3>
+        <div class="flex-tekst"> <!-- Flexer tilhørende Tekst -->
+          <h3>Undgå plastikkirurgi</h3>
           <h3>Fremstillet af genbrugsfibre</h3>
           <h3>Opnå bedre selvværd</h3>
         </div>
@@ -98,16 +136,16 @@
 
       <section id="section7">
         <h2>OBS</h2>
-        <p id="disclaimer">Huemaskeriet står <b>ikke</b> til ansvar for hvad vores kunder vælger at benytte vores produkter til. Vi tolerer dog ikke brug af vores produkt til ulovlige aktiviteter såsom: <b>røveri, forfalskning eller identitetstyveri.</b> <br>Ligeledes tager Huemaskeriet ikke ansvar over diverse farverige designs vores kunder finder på og hvad de vælger at benytte dem til, både i det private og offentlige.<br>Hvad vores kunder vælger at bruge vores produkter til reflekterer nødvendigvis ikke Huemaskeriet synspunkter og værdier, hverken som individer eller firma. <br>I tilfælde af ikke øget selvværd, refunderes produktet ikke.</p>
+        <p id="disclaimer"> <b>1)</b> Huemaskeriet står <b>ikke</b> til ansvar for hvad vores kunder vælger at benytte vores produkter til. Vi tolerer dog ikke brug af vores produkt til ulovlige aktiviteter såsom: <b>røveri, forfalskning eller identitetstyveri.</b> <br><b>2)</b> Hvad vores kunder vælger at bruge vores produkter til reflekterer nødvendigvis ikke Huemaskeriet synspunkter og værdier, hverken som individer eller firma. <br> <b>3)</b> I tilfælde af ikke øget selvværd, refunderes produktet ikke.</p>
       </section>
 
       <footer id="footer"> <!-- Dedikeret til Kenneths minde -->
         <div class="flex-footer">
           <div class="icons">
-            <img src="assets/images/instagram.svg" alt="instagram" style="width:4vh;">
-            <img src="assets/images/linkedin.svg" alt="linkedin" style="width:4vh;">
-            <img src="assets/images/facebook.svg" alt="facebook" style="width:4vh;">
-            <img src="assets/images/youtube.svg" alt="youtube" style="width:4vh;">
+            <a href="https://www.instagram.com" target="_blank"> <img src="assets/images/instagram.svg" alt="instagram" style="width:4vh;"></a>
+            <a href="https://www.linkedin.com" target="_blank"> <img src="assets/images/linkedin.svg" alt="linkedin" style="width:4vh;"></a>
+            <a href="https://www.facebook.com" target="_blank"> <img src="assets/images/facebook.svg" alt="facebook" style="width:4vh;"></a>
+            <a href="https://www.youtube.com" target="_blank"> <img src="assets/images/youtube.svg" alt="youtube" style="width:4vh;"></a>
           </div>
           <div class="artifactsolutions">
             <p>Huemaskeriet 2018</p>
