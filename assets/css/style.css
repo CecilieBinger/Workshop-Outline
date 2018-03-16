@@ -219,7 +219,7 @@ overflow: hidden;
 
 /*sektion 4 */
 #section4 {
-  height: 41vh;
+  height: 60vh;
   width: 100%;
   overflow: hidden;
   background-color: blue;
@@ -253,16 +253,16 @@ overflow: hidden;
 
 .EndeligeHijab {
   flex: 1;
-  height: 70vh;
+  height: 10vh;
   overflow: hidden;
   /* background-color: deeppink; */
 }
 
 #EndeligeHijab {
-  width: 50vh;
+  height: 10vh;
   position: relative;
   left: 3vh;
-  top: 23vh;
+  top: 10vh;
 }
 
 .workshopsmog {
