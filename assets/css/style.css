@@ -183,8 +183,6 @@ overflow: hidden;
   top: 2vh;
 }
 
-
-
 .elg {
   flex: 1;
   order: 2;
@@ -217,12 +215,33 @@ overflow: hidden;
   font-style: italic;
 }
 
+#omos {
+  width: 90%;
+  position: relative;
+  top: 22vh;
+  left: 10vh;
+}
+
+.omos {
+  flex: 1;
+  height: 70vh;
+  overflow: hidden;
+  /* background-color: deeppink; */
+}
+
 /*sektion 4 */
 #section4 {
   height: 60vh;
   width: 100%;
+  padding: 0;
+  position: relative;;
+  text-align: center;
   overflow: hidden;
+<<<<<<< HEAD
   background-color: #f2f2f2;
+=======
+  background-color: lightblue;
+>>>>>>> 42af8d35f86a8f4d45f39c2f3947b01ac40b9c7d
   margin: 0;
 }
 
@@ -245,10 +264,10 @@ overflow: hidden;
 }
 
 #monroe {
-  width: 50vh;
+  width: 40vh;
   position: relative;
-  left: 10vh;
-  top: -145vh;
+  left: -70vh;
+  top: -125vh;
 }
 
 .EndeligeHijab {
@@ -259,10 +278,10 @@ overflow: hidden;
 }
 
 #EndeligeHijab {
-  width: 50vh;
+  width: 40vh;
   position: relative;
-  left: 150vh;
-  top: -8vh;
+  left: 70vh;
+  top: -0vh;
 }
 
 .workshopsmog {
@@ -275,8 +294,30 @@ overflow: hidden;
 #workshopsmog {
   width: 50vh;
   position: relative;
-  left: 75vh;
-  top: -80vh;
+  top: -65vh;
+}
+
+/*sektion 4 */
+#section4a {
+  height: 10vh;
+  width: 100%;
+  padding: 0;
+  position: relative;;
+  text-align: center;
+  overflow: hidden;
+  background-color: lightblue;
+  margin: 0;
+}
+
+#section4 h2 {
+  text-align: center;
+  font-size: 3.5vh;
+}
+
+.flex-section-4a {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
 /* sektion 5 */
