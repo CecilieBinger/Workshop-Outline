@@ -221,6 +221,16 @@ overflow: hidden;
   font-style: italic;
 }
 
+/*sektion 4 */
+#section4 {
+  height: 41vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: blue;
+  margin: 0;
+}
+
+
 /* sektion 5 */
 #section5 {
   height: 41vh;
