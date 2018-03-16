@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Huemaskeriet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Til responsiveness -->
+    <meta name="language" content ="Dansk" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header id="section1"> <!-- sektion 1 (header) -->
+        <img id="headerbackground" src="assets/images/banner.jpg" alt="headerbackground"> <!-- logo -->
+        <nav> <!-- navigation bar -->
+          <ul>
+            <li><a onclick="omos()">OM OS</a></li>
+            <li><a onclick="Koncept()">KONCEPT</a></li>
+            <li><a onclick="HvorforOs()">HVORFOR OS?</a></li>
+            <li><a onclick="KONTAKT()">KONTAKT</a></li>
+          </ul>
+        </nav>
+        <H1>Du kan være hvem du vil</H1> <!-- Header tekst -->
+        <H2>Når du vil</H2>
+      </header>
+
+      <script>
+    function HvorforOs() {
+        var elmnt = document.getElementById("section4");
+        elmnt.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+    }
+
+    function omos() {
+        var elmnt = document.getElementById("section2");
+        elmnt.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+    }
+
+    function Koncept() {
+        var elmnt = document.getElementById("section3");
+        elmnt.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+    }
+
+    function KONTAKT() {
+        var elmnt = document.getElementById("section7");
+        elmnt.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+    }
+    </script>
+
+      <section id="section2"><!-- sektion 2 (about) -->
+        <div class="flex-section-2"> <!-- Flexer sektionen -->
+          <div class="about-text">
+            <H2>KONCEPT</H2> <!-- heading -->
+            <p>Er du også pisse træt af kolde øjenbryn, lidt for røde kinder og forfrysninger i panden? Eller er du bare røv træt af dit skide syge ansigt? Vi har løsningen til dig!
+            Design din nye huemaske, hvor du selv bestemmer om du i morgen vil ligne Søren Pind, eller den bedste udgave af dig selv! Ikke nok med at du slipper for den kolde vind i ansigtet, du ser også godt ud, når du suser afsted! </p> <!-- ABOUT Tekst -->
+          </div>
+
+          <script type="text/javascript">
+
+          var image_tracker = 'f';
+          function change(){
+            var image = document.getElementById('sorenpind');
+            if(image_tracker=='f'){
+              image.src = 'assets/images/sorenpindOriginal.png';
+              image_tracker = 't';
+            }else{
+              image.src = 'assets/images/sorenpind.png'
+              image_tracker = 'f';
+            }
+          }
+          </script>
+
+          <div class="sorenpind">
+            <img id="sorenpind" src="assets/images/sorenpind.png" alt="sorenpindOriginal" onclick='change();'>
+          </div>
+        </div>
+      </section>
+
+      <section id="section3"><!-- sektion 3 (logo'er) -->
+        <div class="flex-section-3">
+          <div class="lion">
+              <img >
+          </div>
+          <div class="about-text1">
+            <H2>OM OS</H2> <!-- heading -->
+            <p>4 ud af 10 mennesker går rundt med lavt selvværd, og den resterende del lyver. Vi er her for at rette om på dit ækle ansigt, og booste dit selvværd. Dette gør vi ved at lave en grimmere dig til en pænere dig, samtidig med at beskytte dit hæslige ansigt mod den kolde vinter. </p>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="section5"> <!-- sektion 5 (værdierne) -->
+        <h2>VORES VÆRDIER</h2>
+        <div class="flex-values"> <!-- flexer værdierne -->
+          <div class="flex-1">
+            <img src="assets/images/syring_icon.png" alt="diamond-value">
+          </div>
+          <div class="flex-1">
+            <img src="assets/images/recycle_icon.png" alt="neatle-value">
+          </div>
+          <div class="flex-1">
+            <img src="assets/images/thumbs_up_icon.png" alt="hand-value">
+          </div>
+        </div>
+        <div class="flex-tekst"> <!-- Flexer tilhørende Tekst -->
+          <h3>Undgå plastikkirurgi</h3>
+          <h3>Fremstillet af genbrugsfibre</h3>
+          <h3>Opnå bedre selvværd</h3>
+        </div>
+      </section>
+
+      <section id="section7"> <!-- sektion 6 (CONTACT) -->
+        <h2>OBS</h2>
+        <p id="disclaimer"> <b>1)</b> Huemaskeriet står <b>ikke</b> til ansvar for hvad vores kunder vælger at benytte vores produkter til. Vi tolerer dog ikke brug af vores produkt til ulovlige aktiviteter såsom: <b>røveri, forfalskning eller identitetstyveri.</b> <br> <b>2)</b> Ligeledes tager Huemaskeriet ikke ansvar over diverse farverige designs vores kunder finder på og hvad de vælger at benytte dem til, både i det private og offentlige.<br> <b>3)</b> Hvad vores kunder vælger at bruge vores produkter til reflekterer nødvendigvis ikke Huemaskeriet synspunkter og værdier, hverken som individer eller firma. <br> <b>4)</b> I tilfælde af ikke øget selvværd, refunderes produktet ikke.</p>
+      </section>
+
+      <footer id="footer"> <!-- footer her -->
+        <div class="flex-footer">
+          <div class="icons">
+            <img src="assets/images/instagram.svg" alt="instagram" style="width:4vh;">
+            <img src="assets/images/linkedin.svg" alt="linkedin" style="width:4vh;">
+            <img src="assets/images/facebook.svg" alt="facebook" style="width:4vh;">
+            <img src="assets/images/youtube.svg" alt="youtube" style="width:4vh;">
+          </div>
+          <div class="artifactsolutions">
+            <p>Huemaskeriet 2018</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
