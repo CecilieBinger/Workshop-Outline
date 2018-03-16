@@ -64,19 +64,19 @@
 
           var image_tracker = 'f';
           function change(){
-            var image = document.getElementById('sorenpind');
+            var image = document.getElementById('sorenpindOriginal');
             if(image_tracker=='f'){
-              image.src = 'assets/images/sorenpindOriginal.png';
+              image.src = 'assets/images/sorenpind.png';
               image_tracker = 't';
             }else{
-              image.src = 'assets/images/sorenpind.png'
+              image.src = 'assets/images/sorenpindOriginal.png'
               image_tracker = 'f';
             }
           }
           </script>
 
-          <div class="sorenpind">
-            <img id="sorenpind" src="assets/images/sorenpind.png" alt="sorenpindOriginal" onclick='change();'>
+          <div class="sorenpindOriginal">
+            <img id="sorenpindOriginal" src="assets/images/sorenpindOriginal.png" alt="sorenpind" onclick='change();'>
           </div>
         </div>
       </section>

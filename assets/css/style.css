@@ -125,14 +125,14 @@ h1 {
   font-size: 2vh;
 }
 
-.sorenpind {
+.sorenpindOriginal {
   flex: 1;
   height: 70vh;
   overflow: hidden;
   /* background-color: deeppink; */
 }
 
-#sorenpind {
+#sorenpindOriginal {
   width: 50vh;
   position: relative;
   left: 3vh;
